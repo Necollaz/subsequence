@@ -1,0 +1,16 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int minNumber = 5;
+        int maxNumber = 96;
+        int intervalStep = 7;
+
+        for (int i = minNumber; i <= maxNumber; i+=intervalStep)
+        {
+            Console.WriteLine(i);
+        } 
+
+        Console.ReadKey();
+    }
+}
